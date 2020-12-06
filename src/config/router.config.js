@@ -7,7 +7,7 @@ export const asyncRouterMap = [
     name: 'index',
     component: BasicLayout,
     meta: { title: 'Главный' },
-    redirect: '/scoring',
+    redirect: '/category',
     children
   },
   {

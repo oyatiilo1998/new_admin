@@ -7,7 +7,7 @@ import getters from './getters'
 import user from './modules/user'
 import permission from './modules/permission'
 // custom module import panel
-import Scoring from './modules/Custom/Scoring'
+import category from './modules/Custom/Category'
 
 Vue.use(Vuex)
 
@@ -16,7 +16,7 @@ export default new Vuex.Store({
     permission,
     user,
     app,
-    Scoring
+    category
 
   },
   state: {

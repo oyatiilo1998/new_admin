@@ -1,8 +1,10 @@
 
-import Scoring from './scoring'
+import Category from './category'
+import Retailer from './retailer'
 
 const children = [
-  Scoring
+  Category,
+  Retailer
 ]
 
 export default children.map(el => ({ ...el,
